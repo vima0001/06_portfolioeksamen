@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #FAF8F1;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-family: "futura-pt", sans-serif;
+  line-height: 1.5rem;
+  margin: 5%;
+}
+h1{
+    color: #0a2ca5;
+}
+
+/* -----------------------------------------------MOBIL--------------------------------------------- */
+@media (max-width: 768px) {
+  body{
+  overflow-x: hidden;
+}
+  h1 {
+    width: 100%;
+    font-size: 70px;
+    font-family: "futura-pt", sans-serif;
+    margin-left: 5%;
+  }
+  .stor_stjerne {
+    width: 5%;
+  }
+  .lille_stjerne_oppe {
+    width: 5%;
+    margin-left: -2%;
+  }
+  .navnekonventioner {
+    display: none;
+    
+  }
+  .animationsopgave{
+    color: #0a2ca5;
+  }
+  .opgaven a{
+    color: #0a2ca5;
+    text-decoration: underline;
+    font-family: 'Gaegu';
+    font-size: 20px;
+  }
+  .opgaven{
+    color: #0a2ca5;
+    font-family: 'Gaegu';
+    font-size: 20px;
+  }
+  h2{
+    font-family: "futura-pt", sans-serif;
+    font-size: 20px;
+    color: #0a2ca5;
+  }
+  .grid_struktur{
+    margin-left: 5%;
+    margin-top: 5rem;
+  }
+  .desktop_web {
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+}
+.desktop_web img {
+    width: 80%;
+}
+.mobile_web{
+    display: grid;
+    place-items: center;
+    
+}
+.mobile_web img{
+    width: 60%;
+}
+footer{
+    font-family: "futura-pt", sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1rem;
+    background-color: #faf8f1
+    }
+
+    footer h4{
+    /* margin-left: 30%; */
+    font-family: "futura-pt", sans-serif;
+    color: #0a2ca5;
+    font-weight: lighter;
+    width: 100%;
+    font-size: 10px;
+    margin-left: 35%;
+    
+    }
+    .mail{
+        width: 10%;
+        transform: rotate(-30deg);
+        margin-left: 15%;
+    }
+    .streg{
+        margin-top: 10rem;
+    }
+    
+    .insta_logo{
+        width: 15%;
+        margin-left: 60%;
+        padding-top: 1rem;
+    }
+}
+/* -----------------------------------------------DESKTOP----------------------------------------------- */
+@media (min-width: 768px) { 
+body{
+  overflow-x: hidden;
+}
+    h1 {
+    width: 100%;
+    font-size: 150px;
+    font-family: "futura-pt", sans-serif;
+    word-wrap: break-word;
+    margin-left: 5%;
+    margin-bottom: 3rem;
+  }
+  .gW_heading{
+    width: 70%;
+    overflow: hidden;
+  }
+  .stor_stjerne {
+    width: 5%;
+  }
+  .lille_stjerne_oppe {
+    width: 5%;
+    margin-left: -2%;
+  }
+  .navnekonventioner img {
+    width: 30%;
+  }
+  .navnekonventioner{
+    margin-top: 5rem;
+  }
+  .opgaven a{
+    color: #0a2ca5;
+    text-decoration: underline;
+    font-family: 'Gaegu';
+    font-size: large;
+  }
+  .opgaven{
+    color: #0a2ca5;
+    font-family: 'Gaegu';
+    font-size: large;
+  }
+ 
+  .web_col_1_1{
+    word-wrap: break-word;
+    margin-top: 0;
+  }
+
+  .web_grid_1_1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .grid_struktur{
+    font-family: "futura-pt", sans-serif;
+    color: #0a2ca5;
+    margin-left: 5%;
+    margin-top: 5rem;
+    font-size: 20px;
+  }
+  .web_grid_2_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+.desktop_web {
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+}
+.desktop_web img {
+    width: 80%;
+}
+.mobile_web{
+    display: grid;
+    place-items: center;
+}
+.mobile_web img{
+    width: 60%;
+}
+.animationsopgave{
+color: #0a2ca5;
+text-decoration: underline;
+  }
+   .opgaven a{
+    color: #0a2ca5;
+    text-decoration: underline;
+    font-family: 'Gaegu';
+    font-size: large;
+  }
+  .opgaven{
+    color: #0a2ca5;
+    font-family: 'Gaegu';
+    font-size: large;
+  }
+footer{
+    font-family: "futura-pt", sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1rem;
+    }
+
+    footer h4{
+    /* margin-left: 30%; */
+    font-family: "futura-pt", sans-serif;
+    color: #0a2ca5;
+    font-weight: lighter;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 35%;
+    
+    }
+    .mail{
+        width: 7%;
+        transform: rotate(-30deg);
+        margin-left: 15%;
+    }
+    .streg{
+        margin-top: 10rem;
+    }
+    
+    .insta_logo{
+        width: 10%;
+        margin-left: 50%;
+        padding-top: 1rem;
+    }
+
+}

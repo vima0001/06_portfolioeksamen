@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #faf8f1;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
+p {
+  line-height: 1.5rem;
+  font-family: "futura-pt", sans-serif;
+}
+h1 {
+  font-family: "futura-pt", sans-serif;
+  color: #0a2ca5;
+}
+/* -------------------------------MOBILE----------------------------- */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 70px;
+    word-wrap: break-word;
+  }
+  h2{
+    font-family: "futura-pt", sans-serif;
+  color: #0a2ca5;
+  font-size: 20px;
+  margin: 5%;
+  }
+  .virksomhedssite_grid_1_1 {
+    margin: 5%;
+  }
+  .virksomhedssite_grid_2_1_ img{
+    width: 100%;
+  }
+  .opgaven a{
+    color: #0a2ca5;
+    text-decoration: underline;
+    font-family: 'Gaegu';
+    font-size: 20px;
+  }
+  .opgaven{
+    color: #0a2ca5;
+    font-family: 'Gaegu';
+    font-size: 20px;
+  }
+  .virk_col_1_2{
+margin-top: 5rem;
+margin-bottom: 4rem;
+  }
+  /* footer */
+footer{
+    font-family: "futura-pt", sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1rem;
+    background-color: #faf8f1
+    }
+
+    footer h4{
+    /* margin-left: 30%; */
+    font-family: "futura-pt", sans-serif;
+    color: #0a2ca5;
+    font-weight: lighter;
+    width: 100%;
+    font-size: 10px;
+    margin-left: 35%;
+    
+    }
+    .mail{
+        width: 10%;
+        transform: rotate(-30deg);
+        margin-left: 15%;
+    }
+    .streg{
+        margin-top: 10rem;
+    }
+    
+    .insta_logo{
+        width: 15%;
+        margin-left: 60%;
+        padding-top: 1rem;
+    }
+}
+/* ---------------------------DESKTOP----------------------------- */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 150px;
+    width: 45%;
+    margin-left: 3%;
+    word-wrap: break-word;
+    margin-bottom: 1rem;
+  }
+  h2{
+    font-size: 25px;
+    font-family: "futura-pt", sans-serif;
+    color: #0a2ca5;
+    margin: 5%;
+  }
+  
+  .virksomhedssite_grid_1_1 {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .virk_col_1_1 {
+    margin: 5%;
+  }
+  .virk_col_1_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .virk_col_1_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .virksomhedssite_grid_2_1_ {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5rem;
+  }
+  .virk_col_2_1, .virk_col_2_3{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 5%;
+  }
+  .opgaven a{
+    color: #0a2ca5;
+    text-decoration: underline;
+    font-family: 'Gaegu';
+    font-size: large;
+  }
+  .opgaven{
+    color: #0a2ca5;
+    font-family: 'Gaegu';
+    font-size: large;
+  }
+  
+  /* footer */
+    footer{
+    font-family: "futura-pt", sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1rem;
+    }
+
+    footer h4{
+    /* margin-left: 30%; */
+    font-family: "futura-pt", sans-serif;
+    color: #0a2ca5;
+    font-weight: lighter;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 35%;
+    
+    }
+    .mail{
+        width: 7%;
+        transform: rotate(-30deg);
+        margin-left: 15%;
+    }
+    .streg{
+        margin-top: 10rem;
+    }
+    
+    .insta_logo{
+        width: 10%;
+        margin-left: 50%;
+        padding-top: 1rem;
+    }
+ 
+}

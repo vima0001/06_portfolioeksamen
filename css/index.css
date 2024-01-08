@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #faf8f1;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
+
+/* -----------------------------------------------MOBIL--------------------------------------------- */
+@media (max-width: 768px) {
+  /* -------------FORSIDE---------------- */
+  .Portfolio {
+    display: none;
+  }
+  .Desktop_index_header {
+    display: none;
+  }
+  .mobil_index_header img {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5rem;
+  }
+  
+}
+/* ----------------------------------------Desktop------------------------------------- */
+@media (min-width: 768px) {
+  .mobil_index_header {
+    display: none;
+  }
+  .Desktop_index_header img {
+    display: flex;
+    margin: auto;
+    margin-top: 10rem;
+  }
+  
+
+}
