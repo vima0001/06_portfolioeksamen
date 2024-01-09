@@ -8,6 +8,7 @@ body {
 a {
   text-decoration: none;
 }
+
 ul{
   text-decoration: none;
 }
@@ -62,6 +63,19 @@ h1{
         margin: 5%;
         word-wrap: break-word;
     }
+    .uiux_txt a{
+        color: #0a2ca5;
+        font-weight: 500;
+     }
+    .gestalt_col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gestaltlove{
+        width: 90%;
+        margin: 5%;
+    }
    
     .dokumenation{
         font-size: 70px;
@@ -93,13 +107,13 @@ h1{
     }
     .procesdokument{
         font-family: 'Gaegu';
-        margin: 5%;
         color: #0a2ca5;
     }
     .procesdokument a{
         color: #0a2ca5;
         text-decoration: underline;
     }
+    
     .styletile{
         display: flex;
         align-items: center;
@@ -117,8 +131,7 @@ footer{
     background-color: #faf8f1
     }
 
-    footer h4{
-    /* margin-left: 30%; */
+    footer p{
     font-family: "futura-pt", sans-serif;
     color: #0a2ca5;
     font-weight: lighter;
@@ -195,12 +208,32 @@ footer{
         align-items: center;
         place-content: center;
     }
-    
-    .uiux_txt{
+    .uiux_grid_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gestalt_col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gestaltlove{
+        width: 70%;
+        margin: 5%;
+    }
+    .uiux_txt {
          margin: 5%;
-        width: 50%;
         word-wrap: break-word;
      } 
+     .uiux_txt a{
+        color: #0a2ca5;
+        font-weight: 500;
+     }
+     .præsentation{
+        font-family: 'Gaegu';
+        color: #0a2ca5;
+        font-size: 1.1rem;
+     }
      
     .dokumenation {
         font-size: 110px;
@@ -216,8 +249,8 @@ footer{
     }
     .procesdokument{
         font-family: 'Gaegu';
-        margin: 5%;
         color: #0a2ca5;
+        font-size: 1.1rem;
     }
     .procesdokument a{
         color: #0a2ca5;
@@ -232,7 +265,7 @@ footer{
     .styletile img{
         width: 80%;
     }
-    /* footer */
+    /* ----footer---- */
     footer{
     font-family: "futura-pt", sans-serif;
     display: flex;
@@ -240,8 +273,7 @@ footer{
     padding: 1rem;
     }
 
-    footer h4{
-    /* margin-left: 30%; */
+    footer p{
     font-family: "futura-pt", sans-serif;
     color: #0a2ca5;
     font-weight: lighter;

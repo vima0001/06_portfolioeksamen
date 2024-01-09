@@ -44,6 +44,17 @@ h1{
         align-items: end;
         margin-right: 0;
     }
+    .seSiden{
+        color: #0a2ca5;
+        font-family: 'Gaegu';
+        font-size: 1.1rem;
+    }
+    .seSiden a{
+        color: #0a2ca5;
+        text-decoration: underline;
+        font-family: 'Gaegu';
+        font-size: 1.1rem;
+    }
     .videosite_img img{
         width: 90%;
     }
@@ -75,7 +86,7 @@ h1{
     .video_indsat2 img{
         width: 80%;
     }
-    /* footer */
+    /* ---footer--- */
 footer{
     font-family: "futura-pt", sans-serif;
     display: flex;
@@ -84,8 +95,7 @@ footer{
     background-color: #faf8f1
     }
 
-    footer h4{
-    /* margin-left: 30%; */
+    footer p{
     font-family: "futura-pt", sans-serif;
     color: #0a2ca5;
     font-weight: lighter;
@@ -140,6 +150,17 @@ footer{
         align-items: end;
         margin-right: 0;
     }
+    .seSiden{
+        color: #0a2ca5;
+        font-family: 'Gaegu';
+        font-size: 1.1rem;
+    }
+    .seSiden a{
+        color: #0a2ca5;
+        text-decoration: underline;
+        font-family: 'Gaegu';
+        font-size: 1.1rem;
+    }
     .videosite_img img{
         width: 100%;
     }
@@ -164,7 +185,7 @@ footer{
     .video_indsat2 img{
         width: 70%;
     }
-    /* footer */
+    /* ----footer---- */
     footer{
     font-family: "futura-pt", sans-serif;
     display: flex;
@@ -172,8 +193,7 @@ footer{
     padding: 1rem;
     }
 
-    footer h4{
-    /* margin-left: 30%; */
+    footer p{
     font-family: "futura-pt", sans-serif;
     color: #0a2ca5;
     font-weight: lighter;

@@ -27,6 +27,7 @@ h1 {
   h1 {
     font-size: 70px;
     word-wrap: break-word;
+    margin: 5%;
   }
   h2{
     font-family: "futura-pt", sans-serif;
@@ -64,8 +65,7 @@ footer{
     background-color: #faf8f1
     }
 
-    footer h4{
-    /* margin-left: 30%; */
+    footer p{
     font-family: "futura-pt", sans-serif;
     color: #0a2ca5;
     font-weight: lighter;
@@ -154,8 +154,7 @@ footer{
     padding: 1rem;
     }
 
-    footer h4{
-    /* margin-left: 30%; */
+    footer p{
     font-family: "futura-pt", sans-serif;
     color: #0a2ca5;
     font-weight: lighter;

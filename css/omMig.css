@@ -18,6 +18,7 @@ p{
    font-family: "futura-pt", sans-serif; 
    line-height: 1.5rem;
 }
+
 /* ------------------------------mobil------------------------------ */
 @media (max-width: 768px) {
 .portraet_wireframe {
@@ -26,6 +27,7 @@ p{
     align-items: center;
     margin-left: 10%;
     margin-top: 5rem;
+
 }
 .omMig_col_2{
     width: 80%;
@@ -49,7 +51,7 @@ footer{
     background-color: #faf8f1
     }
 
-    footer h4{
+    footer p{
     /* margin-left: 30%; */
     font-family: "futura-pt", sans-serif;
     color: #0a2ca5;
@@ -103,6 +105,7 @@ display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .omMig_col_2{
     margin-right: 35%;
 }
@@ -114,7 +117,7 @@ display: flex;
     padding: 1rem;
     }
 
-    footer h4{
+    footer p{
     /* margin-left: 30%; */
     font-family: "futura-pt", sans-serif;
     color: #0a2ca5;

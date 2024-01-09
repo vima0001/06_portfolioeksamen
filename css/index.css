@@ -17,7 +17,7 @@ li {
 
 /* -----------------------------------------------MOBIL--------------------------------------------- */
 @media (max-width: 768px) {
-  /* -------------FORSIDE---------------- */
+  
   .Portfolio {
     display: none;
   }
@@ -40,7 +40,8 @@ li {
   .Desktop_index_header img {
     display: flex;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 12rem;
+    
   }
   
 
